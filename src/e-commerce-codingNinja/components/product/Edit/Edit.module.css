@@ -1,0 +1,26 @@
+.editMain{
+    width:25%;
+    height:55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    background-color: white;
+    transform: translatex(50vw);
+}
+.editform{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    background-color:orange;
+    padding: 1rem;
+}
+.editform input textarea{
+    width: 70%;
+    height: 10%;
+}
+.editform button{
+    background-color:green;
+}

@@ -1,0 +1,114 @@
+.cartContainer_main{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:1rem;
+    background-color:#d9d9d9;
+    overflow: auto;
+}
+.cartContainer_main::-webkit-scrollbar{
+    display: none;
+}
+.cartContainer_main:nth-last-child(1),
+.cartContainer_main:nth-last-child(2) {
+    align-items: flex-start;
+}
+
+.product-list-container > :nth-last-child(3n+1) {
+    margin-right: auto;
+  }
+
+
+
+
+  /* working on side menu toggle thing  */
+  .sidemenu{
+    display: flex;
+    background-color: #d9d9d9;
+    width: 30%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+   transition:all 0.5s ease-in;
+
+  }
+
+  
+
+
+.sideForm{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.search{
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+}
+.search input{
+  border-radius: 25px;
+ width: 100%;
+ height: 100%;
+}
+
+
+  .toggle{
+display: block;
+position: absolute;
+z-index: 99;    
+  }
+
+  .active .toggle{
+    display: block;
+  }
+
+
+.sort{
+  width:80%;
+  height:10%;
+  height: auto;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ justify-content: space-evenly;
+}
+.sort button{
+  height: 90%;
+}
+  /* working on the side bar   */
+
+
+  
+@media only screen and (max-width:700px){
+
+ .sidemenu{
+  position: absolute;
+width: 35%;
+
+ }
+
+     
+  
+  }
+@media only screen and (max-width:400px){
+
+ .sidemenu{
+  position: absolute;
+  width: 50%;
+  background-color: #d9d9d9;
+
+
+ }
+
+     
+  
+  }

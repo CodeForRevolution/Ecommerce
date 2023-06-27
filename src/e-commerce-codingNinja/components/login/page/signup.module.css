@@ -1,0 +1,15 @@
+.signup_main{
+    width:100%;
+    height:100%;
+    background-color: blue;
+}
+.form_singup{
+    width: 90%;
+    height: 90%;
+    background-color: green;
+}
+.form_singup .fields{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

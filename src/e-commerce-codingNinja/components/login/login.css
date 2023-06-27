@@ -1,0 +1,24 @@
+.login_main{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+    display: flex;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Auth{
+    width: 60%;
+    height: 80%;
+    border-radius: 10%;
+    background-color: red;
+}
+
+.login_main .log_btn{
+    width: auto;
+    height: 10%;
+    border-radius:10%;
+}
